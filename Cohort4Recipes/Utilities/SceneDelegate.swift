@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Cohort4Recipes
-//
-//  Created by Taylor Smith on 11/10/21.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
