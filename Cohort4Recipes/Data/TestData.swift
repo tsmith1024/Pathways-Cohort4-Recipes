@@ -9,6 +9,7 @@ struct TestData {
             portions: 3,
             recipeType: .bread,
             source: "https://edfarm.org",
+            imageURL: "edfarm_icon.png",
             ingredients: [
                 TestData.testIngredients[0],
                 TestData.testIngredients[2],
@@ -30,6 +31,7 @@ struct TestData {
             portions: 4,
             recipeType: .dessert,
             source: "https://edfarm.org",
+            imageURL: "edfarm_icon.png",
             ingredients: [
                 TestData.testIngredients[3],
                 TestData.testIngredients[2],

@@ -87,7 +87,8 @@ extension RecipeDetailViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if detailState == .ingredients {
             if let cell = tableView.dequeueReusableCell(withIdentifier: ingredientCellID, for: indexPath) as? IngredientTableViewCell {
-                cell.ingredientLabel.text = "\(recipe.ingredients[indexPath.row])"
+                cell.amountLabel.text = recipe.ingredients[indexPath.row].amount
+                cell.ingredientDescriptionTextView.text = recipe.ingredients[indexPath.row].name
                 return cell
             }
         } else if detailState == .directions {
