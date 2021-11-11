@@ -87,10 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				A6258EC9273D628D009089AD /* Data */,
-				A6B20B9A273C733C00E9E146 /* Utilities */,
 				A6258EC4273C7048009089AD /* Models */,
 				A6258EC5273C704F009089AD /* Views */,
 				A6258EC6273C7053009089AD /* Controllers */,
+				A6B20B9A273C733C00E9E146 /* Utilities */,
 				A6258EB9273C6FE2009089AD /* Assets.xcassets */,
 				A6258EBE273C6FE2009089AD /* Info.plist */,
 			);
@@ -110,16 +110,9 @@
 		A6258EC5273C704F009089AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A6258EB6273C6FDF009089AD /* Main.storyboard */,
-				A6258EBB273C6FE2009089AD /* LaunchScreen.storyboard */,
-				A6B20BA3273D7E7200E9E146 /* RecipeDetail.storyboard */,
-				A6B20B9F273CBF9A00E9E146 /* RecipeCollectionViewCell.swift */,
-				A6B20BA0273CBF9A00E9E146 /* RecipeCollectionViewCell.xib */,
+				A6258EDF273DD440009089AD /* Cells */,
+				A6258EE0273DD44B009089AD /* Storyboards */,
 				A6258ED0273D67FA009089AD /* RecipeFlowLayout.swift */,
-				A6258ED4273D8FF4009089AD /* IngredientTableViewCell.swift */,
-				A6258ED5273D8FF4009089AD /* IngredientTableViewCell.xib */,
-				A6258ED8273D9009009089AD /* DirectionTableViewCell.swift */,
-				A6258ED9273D9009009089AD /* DirectionTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -140,6 +133,29 @@
 				A6258ECA273D629D009089AD /* TestData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		A6258EDF273DD440009089AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6B20B9F273CBF9A00E9E146 /* RecipeCollectionViewCell.swift */,
+				A6B20BA0273CBF9A00E9E146 /* RecipeCollectionViewCell.xib */,
+				A6258ED4273D8FF4009089AD /* IngredientTableViewCell.swift */,
+				A6258ED5273D8FF4009089AD /* IngredientTableViewCell.xib */,
+				A6258ED8273D9009009089AD /* DirectionTableViewCell.swift */,
+				A6258ED9273D9009009089AD /* DirectionTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A6258EE0273DD44B009089AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6258EB6273C6FDF009089AD /* Main.storyboard */,
+				A6258EBB273C6FE2009089AD /* LaunchScreen.storyboard */,
+				A6B20BA3273D7E7200E9E146 /* RecipeDetail.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		A6B20B9A273C733C00E9E146 /* Utilities */ = {

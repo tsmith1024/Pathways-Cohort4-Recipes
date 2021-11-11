@@ -5,7 +5,7 @@ protocol RecipeListHolder {
 }
 
 struct NetworkController {
-    static func loadRecipeList(completionHandler: @escaping ([Recipe]) -> Void) {
+    static func loadRecipeList() {
         let url = URL(string: Constants.baseURL)!
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
@@ -24,7 +24,6 @@ struct NetworkController {
                 print(recipeList)
                 // we've got our recipes
                 // let's use them!
-                completionHandler(recipeList)
             }
         }
         task.resume()
